@@ -1,7 +1,7 @@
 <?php
 require_once("config.php");
 require_once("functions.php");
-require_once("FormSanitizer.php");
+
 if(!isset($_SESSION["userLoggedIn"]) || !isset($_SESSION["confirmationCode"])) {
     exit();
 }
